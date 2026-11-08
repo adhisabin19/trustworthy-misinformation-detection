@@ -1,0 +1,4 @@
+Model,Accuracy,Macro_F1
+Linear SVM,0.2516,0.2511
+Logistic Regression,0.2477,0.2495
+Dummy Majority,0.1931,0.054

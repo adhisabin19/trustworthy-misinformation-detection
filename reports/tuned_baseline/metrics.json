@@ -1,0 +1,20 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "dataset": "LIAR",
+  "evaluation_split": "validation",
+  "accuracy": 0.26869158878504673,
+  "macro_f1": 0.26840184031690834,
+  "weighted_f1": 0.26845326814902903,
+  "parameters": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 20000,
+    "min_df": 2,
+    "sublinear_tf": true,
+    "C": 10.0,
+    "class_weight": "balanced",
+    "random_state": 42
+  }
+}

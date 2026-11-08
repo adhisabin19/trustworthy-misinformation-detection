@@ -1,0 +1,34 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# Raw and processed datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Caches and large model files
+.cache/
+.pytest_cache/
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.pkl
+
+# Windows files
+Thumbs.db
+install-error.txt
+# Exclude cleaned dataset copies
+reports/week3/*_cleaned.csv

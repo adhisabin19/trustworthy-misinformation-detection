@@ -1,0 +1,4 @@
+split,rows,columns
+train,10240,14
+validation,1284,14
+test,1267,14

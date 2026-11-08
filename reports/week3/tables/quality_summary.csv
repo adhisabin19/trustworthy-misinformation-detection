@@ -1,0 +1,4 @@
+split,rows,duplicate_ids,duplicate_full_rows,duplicate_exact_statement,missing_statement,missing_label
+train,10240,0,0,17,0,0
+validation,1284,0,0,0,0,0
+test,1267,0,0,0,0,0
