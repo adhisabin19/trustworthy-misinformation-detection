@@ -1,0 +1,5 @@
+Model,Accuracy,Macro-F1
+Optimized Logistic Regression,0.267134,0.26193
+Linear SVM,0.262461,0.258223
+DistilBERT,0.260125,0.253645
+Logistic Regression,0.253115,0.232384
