@@ -1,0 +1,2 @@
+Threshold,Total_Samples,Accepted,Abstained,Coverage,Abstention_Rate,Full_Accuracy,Selective_Accuracy,Selective_Macro_F1,Selective_Risk
+0.275,1267,759,508,0.5990528808208366,0.40094711917916337,0.2904498816101026,0.310935441370224,0.29263965975686435,0.689064558629776

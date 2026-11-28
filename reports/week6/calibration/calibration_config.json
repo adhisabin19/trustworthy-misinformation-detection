@@ -1,0 +1,18 @@
+{
+    "model": "DistilBERT_V1",
+    "model_path": "distilbert_v1",
+    "method": "temperature_scaling",
+    "temperature": 1.429501727746541,
+    "optimization_metric": "negative_log_likelihood",
+    "calibration_samples": 1284,
+    "max_length": 128,
+    "num_classes": 6,
+    "labels": [
+        "pants-fire",
+        "false",
+        "barely-true",
+        "half-true",
+        "mostly-true",
+        "true"
+    ]
+}

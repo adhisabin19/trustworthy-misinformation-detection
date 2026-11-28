@@ -1,0 +1,13 @@
+Example_ID,Group,Actual_Label,Predicted_Label,Confidence,Jaccard_Similarity,Top5_Overlap,Direction_Agreement,Shared_Token_Count,Shared_Tokens
+1,High_Confidence_Correct,false,false,0.48945884145631785,0.42857142857142855,0.6,1.0,3,"authority, on, support"
+2,High_Confidence_Correct,false,false,0.48602139532484623,0.42857142857142855,0.6,0.6666666666666666,3,"of, on, support"
+3,High_Confidence_Correct,false,false,0.47933715151515777,0.25,0.4,1.0,2,"immigrants, on"
+4,High_Confidence_Incorrect,half-true,false,0.4977069840439043,0.6666666666666666,0.8,1.0,4,"a, health, on, system"
+5,High_Confidence_Incorrect,half-true,false,0.4807197573150996,0.42857142857142855,0.6,1.0,3,"on, reconciliation, the"
+6,High_Confidence_Incorrect,true,false,0.4516923113616216,0.5,0.75,1.0,3,"on, opposition, to"
+7,Low_Confidence_Correct,false,false,0.19965442578367792,0.25,0.4,1.0,2,"if, would"
+8,Low_Confidence_Correct,true,true,0.20616579850147357,0.25,0.4,1.0,2,"accept, cards"
+9,Low_Confidence_Correct,mostly-true,mostly-true,0.20876765440420064,0.42857142857142855,0.6,1.0,3,"cuts, mccain, who"
+10,Low_Confidence_Incorrect,pants-fire,barely-true,0.1856675015839342,0.42857142857142855,0.6,1.0,3,"can, says, women"
+11,Low_Confidence_Incorrect,half-true,barely-true,0.18920418417853016,0.25,0.4,1.0,2,"but, tribute"
+12,Low_Confidence_Incorrect,pants-fire,barely-true,0.19311654159339664,0.25,0.4,1.0,2,"exhausted, hillary"

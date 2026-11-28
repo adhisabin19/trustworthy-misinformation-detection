@@ -1,0 +1,102 @@
+{
+    "project": "TrustFact",
+    "week": 6,
+    "selected_model": "DistilBERT_V1",
+    "training_samples": 10240,
+    "validation_samples": 1284,
+    "test_samples": 1267,
+    "model_configuration": {
+        "project": "TrustFact",
+        "model": "DistilBERT_V1",
+        "model_path": "distilbert_v1",
+        "architecture": "DistilBERT",
+        "labels": [
+            "pants-fire",
+            "false",
+            "barely-true",
+            "half-true",
+            "mostly-true",
+            "true"
+        ],
+        "num_classes": 6,
+        "max_length": 128,
+        "temperature": 1.429501727746541,
+        "confidence_threshold": 0.275,
+        "calibration_method": "temperature_scaling",
+        "selection_metric": "validation_macro_f1",
+        "explainability_methods": [
+            "SHAP",
+            "LIME"
+        ],
+        "status": "frozen_for_test_evaluation"
+    },
+    "validation_before_calibration": {
+        "Accuracy": 0.2772585669781931,
+        "Macro_Precision": 0.2905834859483132,
+        "Macro_Recall": 0.27245113585011216,
+        "Macro_F1": 0.2741996256331878,
+        "Weighted_F1": 0.27511744036216096,
+        "Mean_Confidence": 0.3389484212132257,
+        "ECE": 0.06636574215472141,
+        "NLL": 1.6853412315430543,
+        "Brier_Score": 0.80216020544113
+    },
+    "validation_after_calibration": {
+        "Accuracy": 0.2772585669781931,
+        "Macro_Precision": 0.2905834859483132,
+        "Macro_Recall": 0.27245113585011216,
+        "Macro_F1": 0.2741996256331878,
+        "Weighted_F1": 0.27511744036216096,
+        "Mean_Confidence": 0.28742788293181465,
+        "ECE": 0.019505110924006773,
+        "NLL": 1.6679305289007538,
+        "Brier_Score": 0.7953733569640122
+    },
+    "test_before_calibration": {
+        "Accuracy": 0.2904498816101026,
+        "Macro_Precision": 0.29056564787395806,
+        "Macro_Recall": 0.275303994634936,
+        "Macro_F1": 0.277672275432002,
+        "Weighted_F1": 0.2865520605877307,
+        "Mean_Confidence": 0.34342905490344927,
+        "ECE": 0.055863152418454604,
+        "NLL": 1.6703574598582334,
+        "Brier_Score": 0.7969616753472789
+    },
+    "test_after_calibration": {
+        "Accuracy": 0.2904498816101026,
+        "Macro_Precision": 0.29056564787395806,
+        "Macro_Recall": 0.275303994634936,
+        "Macro_F1": 0.277672275432002,
+        "Weighted_F1": 0.2865520605877307,
+        "Mean_Confidence": 0.2904150857672196,
+        "ECE": 0.008502661923701624,
+        "NLL": 1.6562345501305467,
+        "Brier_Score": 0.7912576169003361
+    },
+    "test_abstention": {
+        "Threshold": 0.275,
+        "Total_Samples": 1267,
+        "Accepted": 759,
+        "Abstained": 508,
+        "Coverage": 0.5990528808208366,
+        "Abstention_Rate": 0.40094711917916337,
+        "Full_Accuracy": 0.2904498816101026,
+        "Selective_Accuracy": 0.310935441370224,
+        "Selective_Macro_F1": 0.29263965975686435,
+        "Selective_Risk": 0.689064558629776
+    },
+    "explainability": {
+        "samples": 12,
+        "mean_jaccard": 0.37996031746031744,
+        "mean_top5_overlap": 0.5458333333333334,
+        "mean_direction_agreement": 0.9722222222222222
+    },
+    "linguistic_sensitivity": {
+        "samples": 17,
+        "prediction_flip_rate": 0.11764705882352941,
+        "original_false_rate": 0.8235294117647058,
+        "modified_false_rate": 0.7058823529411765,
+        "mean_false_probability_change": -0.07258257985248744
+    }
+}

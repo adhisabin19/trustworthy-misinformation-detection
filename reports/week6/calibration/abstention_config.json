@@ -1,0 +1,11 @@
+{
+    "model": "DistilBERT_V1",
+    "strategy": "Balanced",
+    "confidence_threshold": 0.275,
+    "minimum_coverage": 0.5,
+    "validation_coverage": 0.5763239875389408,
+    "validation_selective_accuracy": 0.3162162162162162,
+    "temperature": 1.429501727746541,
+    "uncertainty_method": "maximum_probability",
+    "status": "experimental"
+}

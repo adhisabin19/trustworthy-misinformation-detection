@@ -32,3 +32,33 @@ Thumbs.db
 install-error.txt
 # Exclude cleaned dataset copies
 reports/week3/*_cleaned.csv
+# TrustFact deployment files
+/TrustFact_Model/
+/TrustFact_Model.zip
+/trustfact_frontend.zip
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Model weights
+*.safetensors
+*.ckpt
+pytorch_model.bin
+
+# Secrets
+.env
+# Frontend backups
+**/TrustFact_Frontend_backup.html
+**/TrustFact_Frontend_old.html
+**/TrustFact_Frontend_v2.html
+# Intermediate frontend versions
+**/TrustFact_Frontend_live.html
+**/TrustFact_Frontend_explainable.html
+**/TrustFact_Frontend_backup.html
+**/TrustFact_Frontend_old.html
+**/TrustFact_Frontend_v2.html
+
+# Accidental terminal output file
+/bject Name, Length
